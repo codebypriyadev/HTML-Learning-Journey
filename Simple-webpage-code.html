@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        ul li{
+            float: left;
+        }
+        ul li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            align-items: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nav{
+            height: 5vh;
+            width: 70%;
+            margin-left: 20%;
+            padding: 0;
+        }
+        .main{
+            display: flex;
+        }
+        .PraRoz{
+            height: 5vh;
+            width: 25%;
+            font-size: 200%;
+            color: orangered;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table{
+            border: 1px solid orangered;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            background-image: url(evening.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box1{
+            height: 50vh;
+            width: 50%;
+            margin-top: 10%;
+        }
+        h2{
+            color: white;
+        }
+        h1{
+            color: orangered;
+        }
+        font{
+            color: white;
+        }
+        td{
+            color: white;
+        }
+        button{
+            color: black;
+            background-color: orangered;
+            border-radius: 10%;
+            height: 4VH;
+            width: 20%;
+            border-color: orangered;
+        }
+        #log{
+            color: orangered;
+            background-color: white;
+            border-color: white;
+            height: 4vh;
+            width: 100%;
+            align-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 100%;
+        }
+        .login{
+            height: 60vh;
+            width: 20%;
+            background-color: black;
+            margin-top: 10%;
+            margin-left: 15%;
+        }
+        .web{
+            display: flex;
+        }
+        input{
+            background-color: black;
+            border:none;
+        }
+        .mini{
+            margin-left: 10%;
+            margin-top: 10%;
+            margin-right: 10%;
+        }
+        #in{
+            height: 5vh;
+            width: 100%;
+            font-size: 100%;
+        }
+        .account{
+            height: 10vh;
+            width: 100%;
+            margin-top: 3vh;
+            text-align: center;
+        }
+        .Sign{
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+        <div class="main">
+            <div class="PraRoz">
+                PraRoz
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Type to search"></td>
+                        <td bgcolor="orangered">Search</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="web">
+            <div class="box1">
+                <b><h2>Web Design &</h2><h1>Development</h1><h2>Course</h2></b>
+                    <font>Web Design is a specialisation of the design stream.They also use HTML.<br> CSS WYSIWYG editing software. mark up validators etc..<br> to create design elements.<br></font><br>
+                    <button>JOIN US</button>
+            </div>
+            <div class="login">
+                <div class="mini">
+                    <form>
+                        <button id="log">Login Here</button><br><br><br>
+                            <input type="text" placeholder="Enter Email Here"><hr><br><br>
+                            <input type="text" placeholder="Enter Password Here"><hr><br><br>
+                            <button id="in"><b>Login</b></button>
+                    </form>
+                    <div class="account">
+                        <font>Don't have an account?<br>
+                        <b class="Sign">Sign up</b> here<br>
+                        Log in with
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
